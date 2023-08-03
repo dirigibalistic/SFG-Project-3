@@ -7,13 +7,9 @@ public class Item : ScriptableObject
 {
     public string itemName;
     public string description;
-    public float value;
 
     public ItemType type;
     public Sprite icon;
-
-    public float damage;
-    public float armor;
 
     public StatChange[] statChanges = new StatChange[0];
 
@@ -24,6 +20,5 @@ public class Item : ScriptableObject
         Arms,
         Legs,
         Weapon,
-        Consumable
     }
 }

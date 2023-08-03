@@ -6,6 +6,6 @@ using UnityEngine;
 [Serializable]
 public class StatChange
 {
-    public string stat;
+    public string name;
     public float value;
 }

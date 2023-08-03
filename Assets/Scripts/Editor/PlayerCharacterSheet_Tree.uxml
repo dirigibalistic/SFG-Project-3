@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <uie:PropertyField label="Player Stats" binding-path="stats" focusable="true" name="stats" style="margin-left: 3px; margin-right: 3px; margin-top: 1px; margin-bottom: 1px; padding-left: 6px; padding-right: 6px; padding-top: 1px; padding-bottom: 1px; align-items: stretch;" />
+    <ui:Button text="Update stat totals" display-tooltip-when-elided="true" name="update" binding-path="update" />
+    <uie:PropertyField name="slots" binding-path="inventorySlots" style="margin-left: 3px; margin-right: 3px; margin-top: 1px; margin-bottom: 1px; padding-left: 6px; padding-right: 6px; padding-top: 1px; padding-bottom: 1px;" />
+    <uie:PropertyField name="inventory" binding-path="inventory" style="margin-left: 3px; margin-right: 3px; margin-top: 1px; margin-bottom: 1px; padding-left: 6px; padding-right: 6px; padding-top: 1px;" />
+</ui:UXML>

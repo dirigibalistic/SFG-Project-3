@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:TextField picking-mode="Ignore" label="Item Name" value="filler text" multiline="false" binding-path="itemName" name="name" style="height: auto;" />
+    <ui:TextField picking-mode="Ignore" label="Description" value="filler text" name="description" binding-path="description" multiline="true" style="height: 60px;" />
+    <uie:PropertyField binding-path="icon" label="Icon" focusable="true" name="icon" style="height: auto;" />
+    <uie:EnumField label="Type" binding-path="type" name="type" />
+    <uie:PropertyField name="stats" binding-path="statChanges" />
+</ui:UXML>

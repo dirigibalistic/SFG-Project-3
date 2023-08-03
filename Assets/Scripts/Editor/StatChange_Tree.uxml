@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-direction: row; align-items: auto; justify-content: space-between;">
+        <ui:Label text="Stat Name" display-tooltip-when-elided="true" />
+        <ui:TextField picking-mode="Ignore" text="filler text" name="name" binding-path="name" />
+        <ui:Label text="Value" display-tooltip-when-elided="true" enable-rich-text="false" />
+        <uie:FloatField value="42.2" name="value" binding-path="value" />
+    </ui:VisualElement>
+</ui:UXML>
